@@ -21,6 +21,23 @@ body {
     margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+section {
+    padding: 75px 0px;
+    padding-bottom: 140px;
+    background-color: #c1c8f1;
+}
+
 /* common css end here.! */
 
 
@@ -98,7 +115,71 @@ nav ul li {
 /* resume section  */
 .Resume-section span {
     display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 3rem 0rem;
 }
+
+.Resume-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.Resume-section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.Resume-section button {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.Resume-section .education,
+.Resume-section .experience {
+    width: 45%;
+
+}
+
+.education-list h4,
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
+.education-list h6 {
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.Resume-section .education-list {}
+
+.Resume-section .education-list {
+    border-bottom: 1px solid #a0a0a0;
+    width: 100%;
+    padding: 25px 0px;
+    padding-right: 25px;
+}
+
+.Resume-section .education-list:last-child {
+    border-bottom: none;
+}
+
+.Resume-section .education-list p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: rgba(117, 117, 117, 1);
+
+}
+
+
 
 .cv-download-btn {
     text-align: center;
@@ -117,8 +198,12 @@ nav ul li {
 
 
 
-.amazing-work-section {
-    padding: 25px 0;
+.amazing-work-section {}
+
+section.amazing-work-section {
+    padding: 95px 0;
+    padding-bottom: 140px;
+
 }
 
 .amazing-work-section h3 {
