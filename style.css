@@ -7,7 +7,7 @@
 :root {
     --primary-color: #fd6e0aFF;
     --secondary-color: #fff8f3FF;
-
+    --text-color: rgba(117, 117, 117, 1);
 
 }
 
@@ -86,15 +86,47 @@ nav ul li {
 
 
 /* about section */
-.about-footer {
-    width: 80%;
+.about-me-section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 45px auto;
+}
+
+.about-me-section p {
+    width: 65%;
     margin: 0 auto;
+    line-height: 27px;
+    letter-spacing: .5px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.about-me-section .container {}
+
+.about-me-section .container {
+    background-color: var(--secondary-color);
+    padding: 80px 45px;
+    border-radius: 7px;
+
+}
+
+.about-footer {
+    width: 65%;
+    margin: 45px auto;
     display: flex;
     justify-content: space-between;
 
 }
 
+.about-footer li {
+    list-style: none;
+    margin-top: 50px;
 
+}
+
+.about-footer li h5 {
+    font-size: 20px;
+}
 
 
 
@@ -340,7 +372,8 @@ section.amazing-work-section {
 
 footer {
     background-color: #fff8f3;
-    padding: 4rem 0;
+
+    padding: 85px 0px;
 }
 
 footer .container {
@@ -358,6 +391,15 @@ footer h3 {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.footer-left span img:hover {
+    cursor: pointer;
+}
+
+.footer-left span {
+    display: flex;
+    gap: 20px;
 }
 
 .footer-left p {
