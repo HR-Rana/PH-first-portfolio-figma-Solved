@@ -39,6 +39,10 @@ section {
 
 }
 
+p {
+    color: var(--text-color) !important;
+}
+
 /* common css end here.! */
 
 
@@ -48,7 +52,8 @@ section {
 /* header section */
 
 header {
-    background-color: var(--primary-color);
+
+    background-color: var(--secondary-color)
 }
 
 header span h3 {
@@ -76,6 +81,115 @@ nav ul {
 nav ul li {
     padding: 1rem;
 }
+
+
+
+header {
+    background-image: url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative !important;
+}
+
+header::after {
+    content: "Developer";
+    font-size: 85px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    transform: rotate(-90deg);
+    width: fit-content;
+    height: fit-content;
+    font-weight: 700;
+    position: absolute;
+    top: 42%;
+    left: -13% !important;
+    color: rgb(165, 165, 165);
+
+}
+
+
+.hero-section {
+    /* height: fit-content; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section .hero-left-title {
+    width: 50%;
+    display: flex;
+    min-height: 100%;
+    gap: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .hero-left-title span {
+    width: 100%;
+    height: fit-content;
+    line-height: 28px;
+}
+
+.hero-section .hero-left-title span h4 {
+    font-size: 28px;
+    color: #a0a0a0;
+}
+
+.hero-section .hero-left-title span h2 {
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.hero-section .hero-left-title span p {
+    width: 80%;
+    padding-right: 25px;
+    letter-spacing: 1px;
+    margin: 35px 0;
+}
+
+.hero-section .hero-left-title .button {
+    display: flex;
+    width: 100%;
+    gap: 0 25px;
+}
+
+.hero-section .hero-left-title button {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.hero-section .hero-left-title button:nth-last-child(1) {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+
+}
+
+
+
+.hero-right-image .my-img img {
+    margin-bottom: -4px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -451,6 +565,10 @@ footer form textarea {
     padding: 0.5rem;
     font-size: 18px;
     border: none;
+}
+
+footer form button .fa-paper-plane {
+    font-size: 18px;
 }
 
 footer form button {
