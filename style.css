@@ -13,7 +13,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
+    background-color: #f7f7f7;
+    /* background-color: white; */
 }
 
 .container {
@@ -35,7 +36,7 @@ h6 {
 section {
     padding: 75px 0px;
     padding-bottom: 140px;
-    background-color: #c1c8f1;
+
 }
 
 /* common css end here.! */
@@ -92,6 +93,82 @@ nav ul li {
     justify-content: space-between;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+/* what i do section */
+
+.what-i-do-section {}
+
+.what-i-do-section .do-title {
+    margin: 25px 0;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-bottom: 75px;
+
+}
+
+
+.what-i-do-section .do-title h3 {
+    font-size: 32px
+}
+
+.what-i-do-section .do-title p {
+    line-height: 35px;
+}
+
+.what-i-do-section .skill-cards {
+    display: flex;
+    justify-content: space-between
+}
+
+.what-i-do-section .skill-cards .card {
+    width: 21%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgb(133, 133, 133);
+    display: flex;
+    flex-direction: column;
+    line-height: 27px;
+
+
+}
+
+.what-i-do-section .skill-cards .card .icon {
+    padding: 25px 0;
+    display: flex;
+    gap: 0px 7px;
+}
+
+
+.what-i-do-section .skill-cards .card h4 {
+    font-size: 24px;
+
+}
+
+.what-i-do-section .skill-cards .card p {
+    padding-right: 25px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
 
 
 
